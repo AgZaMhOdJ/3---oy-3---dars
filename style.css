@@ -1,0 +1,143 @@
+body {
+    font-family: Segoe UI,SegoeUI,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 0;
+    font-weight: bold;
+    background-color: #000;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+h1 {
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 16px 18px 28px #FFFFFF;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 50px;
+}
+
+header nav {
+    display: flex;
+    gap: 100px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 4px 7px #FFFFFF;
+}
+
+header a:hover {
+    color: aqua;
+}
+
+.position {
+    background-image: url("./images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px 0;
+}
+
+.position .box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.position .card {
+    width: 30%;
+    position: relative;
+}
+
+.position .red {
+    background-color: #F70101;
+    color: #32F800;
+    width: 200px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -70px;
+}
+
+.position .red1 {
+    right: 50px;
+}
+
+.position .red2 {
+    border-radius: 70px;
+    padding: 0 50px;
+    left: -50px;
+}
+
+.position .green {
+    background-color: #32F800;
+    color: #F70101;
+    width: 200px;
+    height: 190px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.info {
+    margin-top: 50px;
+}
+
+.info .card {
+    background-color: #7B2525;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 4px 7px #FFFFFF;
+}
+
+.info .box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 10px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav {
+    display: flex;
+    gap: 100px;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 0 4px 7px #FFF;
+}
+
+footer a:hover {
+    color: aqua;
+}
