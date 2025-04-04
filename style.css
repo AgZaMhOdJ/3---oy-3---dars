@@ -16,6 +16,8 @@ h1 {
     text-align: center;
     border-radius: 20px;
     box-shadow: 16px 18px 28px #FFFFFF;
+    width: 400px;
+    margin: 20px auto;
 }
 
 header {
